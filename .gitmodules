@@ -1,0 +1,8 @@
+[submodule "themes/even"]
+	path = themes/even
+	url = git@github.com:h3fang/hugo-theme-even.git
+	branch = h3f
+[submodule "public"]
+	path = public
+	url = git@github.com:h3fang/h3fang.github.io.git
+	branch = master
