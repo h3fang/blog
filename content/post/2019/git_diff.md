@@ -10,12 +10,12 @@ To use git diff more efficiently, we actually have to understand different stage
 <!--more-->
 
 {{% center %}}
-![](/image/stages_of_git_files.png)
+![](/image/stages_of_git_files.webp)
 {{% /center %}}
 
 Then we can use git diff to show changes between different stages. Here, **HEAD** corresponds to **Committed** tip, **Index** corresponds to **Staged**, **Modified** corresponds to **Working tree**.
 
-{{% figure class="center" src="/image/git_diff.png" title="center" alt="img" %}}
+{{% figure class="center" src="/image/git_diff.webp" title="center" alt="img" %}}
 
 ### References
 
