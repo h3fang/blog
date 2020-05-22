@@ -1,5 +1,5 @@
 baseURL = "https://h3fang.github.io/"
-languageCode = "en"
+languageCode = "en_US"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "HE Fang - Some where to write something"
 preserveTaxonomyNames = true
