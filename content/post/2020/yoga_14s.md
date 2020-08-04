@@ -138,7 +138,7 @@ $ cat /sys/firmware/acpi/tables/DSDT > dsdt.aml
 
 De-compile the dumped table.
 ```bash
-iasl -d dsdt.aml
+$ iasl -d dsdt.aml
 ```
 
 Get and apply the patch.
