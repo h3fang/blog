@@ -12,7 +12,7 @@ As my old laptop ages, the condition of it keeps degrading (broken chassis/hinge
 
 ## AMD YES
 
-AMD Ryzen CPUs are much more powerful than Intel's. With this low voltage mobile CPU  Ryzen 4800U, it can even beat Intel's hight end desktop CPUs.
+AMD Ryzen CPUs are much more powerful than Intel's. With this low voltage mobile CPU  Ryzen 4800U, it can even beat Intel's high-end desktop CPUs.
 
 {{% center %}}
 ![](/image/4800u_ladder.webp)
