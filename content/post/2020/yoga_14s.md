@@ -109,7 +109,7 @@ $ mkwinpeimg --iso --windows-dir=/media/winimg --start-script=start.cmd winpe.is
 Then make the image UEFI bootable by following <https://wiki.archlinux.org/index.php/Windows_PE#Prepare_a_bootable_Windows_PE_USB_key_for_UEFI_systems>.
 
 Reboot, hold F12 key, choose to boot from the Windows PE. The Windows command line will pop up. Go to the root folder of Windows PE, and run the actual updater `H2OFFT-Wx64.exe`, the BIOS updater will start and do it's job.
-```
+```shell
 $ cd X:\
 $ H2OFFT-Wx64.exe
 ```
@@ -175,7 +175,7 @@ initrd /initramfs-linux-zen.img
 options root=PARTUUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx rw quiet mem_sleep_default=deep
 ```
 
-Reboot, and check whether S3 state again.
+Reboot, and check the S3 state again.
 ```bash
 $ dmesg | grep -i "acpi: (supports"
 [    0.358340] ACPI: (supports S0 S3 S4 S5)
