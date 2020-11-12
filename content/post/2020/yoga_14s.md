@@ -100,7 +100,7 @@ Edit the `updater/platform.ini` file, find and change `viaESP=1` to `viaESP=0`.
 viaESP=0
 ```
 
-When creating the Windows PE image using `mkwinpeimg`, use the `--overlay` option to include contents in `updater` folder to the image.
+Follow <https://wiki.archlinux.org/index.php/Windows_PE#Creating_a_bootable_Windows_PE_image> to create the Windows PE image using `mkwinpeimg`, use the `--overlay` option to include contents in `updater` folder to the image.
 ```bash
 $ mkwinpeimg --iso --windows-dir=/media/winimg --start-script=start.cmd winpe.iso --overlay codeGetExtractPath/updater
 
